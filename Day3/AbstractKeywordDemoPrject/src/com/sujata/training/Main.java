@@ -2,7 +2,6 @@ package com.sujata.training;
 
 import com.sujata.demo.Audi;
 import com.sujata.demo.BMW;
-import com.sujata.demo.Car;
 import com.sujata.demo.Toyota;
 
 //Car Rental

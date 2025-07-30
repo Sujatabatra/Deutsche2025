@@ -1,0 +1,37 @@
+2025-07-30T15:36:24.395+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] c.s.d.SpringWebMvcDemoProjectApplication : Starting SpringWebMvcDemoProjectApplication using Java 21.0.7 with PID 19272 (D:\Deutsche 2025\workspace\Day5WorkSpace\SpringBoot\spring-web-mvc-demo-project\target\classes started by Sujata in D:\Deutsche 2025\workspace\Day5WorkSpace\SpringBoot\spring-web-mvc-demo-project)
+2025-07-30T15:36:24.402+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] c.s.d.SpringWebMvcDemoProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-30T15:36:25.855+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-30T15:36:26.000+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 1 JPA repository interface.
+2025-07-30T15:36:27.899+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-07-30T15:36:27.934+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-30T15:36:27.935+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-07-30T15:36:28.050+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-30T15:36:28.050+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3516 ms
+2025-07-30T15:36:28.637+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-30T15:36:28.763+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-07-30T15:36:28.860+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-30T15:36:29.728+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-30T15:36:29.817+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-30T15:36:30.885+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bdb04c8
+2025-07-30T15:36:30.890+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-30T15:36:30.990+05:30  WARN 19272 --- [spring-web-mvc-demo-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-30T15:36:30.995+05:30  WARN 19272 --- [spring-web-mvc-demo-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-30T15:36:31.046+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-30T15:36:32.937+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-30T15:36:33.070+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-30T15:36:33.715+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-30T15:36:33.838+05:30  WARN 19272 --- [spring-web-mvc-demo-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-30T15:36:35.100+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-07-30T15:36:35.150+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [main] c.s.d.SpringWebMvcDemoProjectApplication : Started SpringWebMvcDemoProjectApplication in 12.217 seconds (process running for 13.288)
+2025-07-30T15:43:38.658+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-30T15:43:38.679+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-30T15:43:38.689+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-30T15:43:38.696+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-30T15:43:38.716+05:30  INFO 19272 --- [spring-web-mvc-demo-project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

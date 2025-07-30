@@ -21,6 +21,7 @@ public class ShareResource {
 
     @GetMapping(path = "/shares",produces = MediaType.APPLICATION_JSON_VALUE)
     public List<Share> getAllDetails(){
+
         return shareService.getAllShares();
     }
 

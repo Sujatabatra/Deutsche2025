@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Batch2 Share App</h1>
+    </header>
+    <section>
+        <form action="./path" method="post">
+            Enter Share Id : <input type="text" required name="shareId"/><br><br>
+            Enter Share Name : <input type="text" name="name"/><br><br>
+            Select Share Type : <input type="radio" name="type"/>Equity
+                                <input type="radio" name="type"/> Ordinary<br><br>
+            Select Company TurnOver range : <select name="turnover">
+                <option>below 1 Cr</option>
+                <option>1 Cr to 10 Cr</option>
+                <option>Above 10 Cr</option>
+            </select>
+            <br><br>
+            Select Transaction Type : <input type="checkbox" name="trType">Daily Transaction
+            <input type="checkbox" name="trType">Long Term Holding
+            <br><br>
+            <input type="submit" value="Save Share">
+        </form>
+    </section>
+
+    <footer>
+        <nav>
+            <a href="./index.html"> Go back</a>        
+        </nav>
+    </footer>
+</body>
+</html>

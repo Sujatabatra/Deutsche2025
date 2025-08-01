@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import UseStateComponent from './components/UseStateComponent'
 import UseReducerComponent from './components/UseReducerComponent'
+import UseMemComponent from './components/UseMemComponent'
 function App() {
   
   return (
@@ -10,6 +11,7 @@ function App() {
 
       <UseStateComponent/>
       <UseReducerComponent/>
+      <UseMemComponent/>
     </>
   )
 }

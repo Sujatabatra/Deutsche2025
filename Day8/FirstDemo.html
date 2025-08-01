@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Demo</title>
+    <style>
+        .bold{
+            font-weight: bold;
+        }
+        .highlight{
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+
+    <script>
+        function addClass(){
+            document.getElementById("example").classList.add("highlight")
+        }
+
+        function removeClass(){
+            document.getElementById("example").classList.remove("bold")
+        }
+        function toggleClass(){
+            document.getElementById("example").classList.toggle("highlight")
+        }
+
+        function addText(){
+            var newDiv=document.createElement("div");
+            newDiv.textContent="This Div is added by DOM API";
+
+            referenceDiv=document.getElementById("example");
+
+            document.body.insertBefore(newDiv,referenceDiv);
+
+        }
+    </script>
+</head>
+<body>
+    <div id="example" class="bold">
+        This is the text element with the bold class
+    </div>
+    <br>
+    <button onclick="addClass()">Add Highlight</button>
+    <button onclick="removeClass()">Remove Bold</button>
+    <button onclick="toggleClass()">Toggle Highlight</button>
+    <button onclick="addText()">Add Text</button>
+</body>
+</html>
